@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+	<control namespace="SKPCFController" constructor="CountrySuggestion" version="0.0.1" display-name-key="Country List" description-key="This control gives you list of countires" control-type="standard" >
+
+		<!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+		<property name="country" display-name-key="Country_Display_Key" description-key="Country_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+
+		<resources>
+			<code path="index.ts" order="1"/>
+			<css path="css/datalist.css" order="2" />
+			<resx path="CountryList.1033.resx" version="1.0.0" />
+		</resources>
+	</control>
+</manifest>
